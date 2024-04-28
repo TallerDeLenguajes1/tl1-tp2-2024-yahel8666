@@ -4,7 +4,7 @@
 #include <time.h>
 #define N 20
 
-int main(int argc, char const *argv[])
+int main()
 {
     int i;
     double vt[N];
