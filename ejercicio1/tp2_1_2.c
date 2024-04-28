@@ -11,7 +11,7 @@ int main()
     srand(time(NULL)); 
     for(i = 0;i<N; i++)
     {
-        *(pvector+i)= rand()%101;
+        *(pvector+i)=rand()%101;
         printf("%f \n", *(pvector+i));
     }
     return 0;
